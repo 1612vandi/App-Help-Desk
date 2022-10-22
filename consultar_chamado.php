@@ -1,13 +1,11 @@
 <?php 
-require_once "validador_acesso.php";
-  
+require_once "validador_acesso.php"; 
 ?>
 
 <?php
-
   //array de chamados
-
   $chamados = array();
+
   //abrir arquivo.hd
   $arquivo = fopen('arquivo.hd','r');
 
@@ -20,8 +18,8 @@ require_once "validador_acesso.php";
 
   //fechando o arquivo.hd
   fclose($arquivo);
-
 ?>
+
 <html>
   <head>
     <meta charset="utf-8" />
@@ -39,7 +37,6 @@ require_once "validador_acesso.php";
   </head>
 
   <body>
-
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
         <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
